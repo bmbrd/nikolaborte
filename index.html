@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Niko Laborte | Creative Developer</title>
+
+<link rel="stylesheet" href="css/styles.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+</head>
+
+<body>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<h1 class="typing">
+<span id="typed-text"></span>
+<span class="cursor">|</span>
+</h1>
+
+<p class="intro">
+	Creative Ad Developer with 7+ years experience building
+	HTML5 display ads, rich media creatives and interactive banners.
+
+	Previously worked with Amazon Operations Services producing
+	high-performance advertising creatives.
+</p>
+
+<div class="scroll-indicator">
+	<div class="scroll-text">scroll</div>
+		<div class="scroll-mouse">
+		<div class="scroll-wheel"></div>
+	</div>
+</div>
+
+</section>
+
+
+<!-- ADS PROJECTS -->
+
+<section>
+
+<h2 class="section-title">Ads / Designs Projects</h2>
+
+<div class="masonry">
+
+	<div class="tile ad-thumb" data-width="300" data-height="250" data-ad="ads/coca_cola_300x250/index.html">
+		<img src="ads/coca_cola_300x250/default.jpg">
+	</div>
+
+	<div class="tile ad-thumb" data-width="300" data-height="600" data-ad="ads/mcdo_300x600/index.html">
+		<img src="ads/mcdo_300x600/default.png">
+	</div>
+
+	<div class="tile ad-thumb" data-width="970" data-height="250" data-ad="ads/samsung_970x250/index.html">
+		<img src="ads/samsung_970x250/default.png">
+	</div>
+
+	<div class="tile ad-thumb" data-width="800" data-height="692" data-ad="designs/x-teris.jpg">
+		<img src="designs/x-teris.jpg">
+	</div>
+
+	<div class="tile ad-thumb" data-width="540" data-height="960" data-ad="designs/doordash.png">
+		<img src="designs/doordash.png">
+	</div>
+
+	<div class="tile ad-thumb" data-width="800" data-height="540" data-ad="designs/umssi.jpg">
+		<img src="designs/umssi.jpg">
+	</div>
+
+	<div class="tile ad-thumb" data-width="800" data-height="456" data-ad="designs/web-design.jpg">
+		<img src="designs/web-design.jpg">
+	</div>
+
+	<div class="tile ad-thumb" data-width="730" data-height="800" data-ad="designs/swiftMobi.jpg">
+		<img src="designs/swiftMobi.jpg">
+	</div>
+
+</div>
+
+</section>
+
+
+<!-- MODAL -->
+<div class="modal" id="adModal">
+  <button class="close">✕</button>
+
+  <div class="modal-content">
+    <iframe id="adFrame"></iframe>
+  </div>
+</div>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
