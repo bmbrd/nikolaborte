@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+#ad {
+    display: block;
+    border: rgb(0, 0, 0) 1px solid;
+    overflow: hidden;
+    cursor: pointer;
+    width: 298px;
+    height: 248px;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: linear-gradient(135deg, 
+      #4d2c91 0%, 
+      #6a38aa 15%, 
+      #b931c0 30%, 
+      #ff4fa3 50%, 
+      #ff8dbd 65%, 
+      #5ac8ff 80%, 
+      #2b73d6 100%);
+}
+.f1-img,.f2-img{
+/*    opacity: 0;*/
+    position:absolute;
+    display: block;
+}
+#frame1,#frame2{
+    opacity: 0;
+}
+
+/*.frames{opacity: 0.5;}*/
+.frames,#frame1,#frame2 {
+    position: absolute;
+    display: block;
+    width: 298px;
+    height: 248px;
+    background-color: #000;
+    overflow: hidden;
+}
+
+#f1-led{
+    width: 107px;
+    height: auto;
+    top: 41px;
+    left: 177px;
+}
+
+#f1-kwave{
+    top: 147px;
+    left: 171px;
+}
+
+#f1-spark{
+    width: 30px;
+    height: auto;
+    top: 30px;
+    left: 173px;
+}
+
+#f1-musicnote{
+    width: 78px;
+    height: auto;
+    top: 147px;
+    left: 103px;
+}
+
+#f1-heart{
+    width: 70px;
+    height: auto;
+    top: 0px;
+    left: 9px;
+    transform: rotate(20deg);
+}
+
+#f1-kwave-packshot{
+    width: 148px;
+    height: auto;
+    top: 9px;
+    left: 21px;
+    transform: rotate(8deg);
+}
+
+#frame2{
+    background-color:#d00013;
+}
+
+#f2-packshot{    
+    width: 114px;
+    height: auto;
+    top: 137px;
+    left: 156px;
+}
+
+#f2-cta{    
+    width: 120px;
+    height: auto;
+    top: 200px;
+    left: 21px;
+}
+
+#f2-logos{    
+    top: 104px;
+    left: 19px;
+}
+
+#f2-subhead{    
+    top: 30px;
+    left: 23px;
+}
+
+#f2-header{    
+    top: 48px;
+    left: 23px;
+}
